@@ -32,7 +32,7 @@ const Header = () => {
       </Link>
       </div>
       <div className="flex justify-center items-center gap-10 cursor-pointer">
-       <Link href={"" }>
+       <Link href={"https://github.com/atish-57/AI-Course-Generator" }>
          <RxGithubLogo className="text-3xl"/>
        </Link>
       <Link href={'/dashboard'}>
