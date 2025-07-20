@@ -15,7 +15,7 @@ const ExploreCourse = () => {
   useEffect(()=>{
        GetAllCourse();
        const timer = setTimeout(() => {
-        setShowSkeleton(false); // Hide skeleton after 10 seconds
+        setShowSkeleton(false);
       }, 3000);
   
       // Cleanup the timer on component unmount
