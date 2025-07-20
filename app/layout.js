@@ -2,7 +2,7 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Head from "next/head";
-import Analytics from "./_components/Analytics";
+import { Analytics } from "@vercel/analytics/next";
 const inter = Outfit({ subsets: ["latin"] });
 export const metadata = {
   title: "AI Course Generator | Create Your Customized Learning Path",
@@ -22,9 +22,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
-    
-    <ClerkProvider>
-    <Head>
+
+      <ClerkProvider>
+        <Head>
           {/* SEO Metadata */}
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
@@ -41,13 +41,12 @@ export default function RootLayout({ children }) {
           <meta property="og:image" content={metadata.openGraph.image} />
           <meta property="og:type" content={metadata.openGraph.type} />
         </Head>
-   <Analytics/>
-    <html lang="en">
-      <body className={inter.className}>{children}
-    
-      </body>
-    </html>
-    </ClerkProvider>
+        <Analytics />
+        <html lang="en">
+          <body className={inter.className}>{children}
+          </body>
+        </html>
+      </ClerkProvider>
     </>
   );
 }
