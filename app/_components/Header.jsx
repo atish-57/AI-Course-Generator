@@ -15,7 +15,7 @@ const Header = () => {
         <meta name="keywords" content="AI, Course Generator, Online Learning, Educational Tool, Machine Learning, Deep Learning" />
         <meta name="author" content="Atish Ranjan" />
        
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://ai-course-generator-atish57s.vercel.app/" />
         <meta property="og:title" content="AI Course Generator" />
         <meta property="og:description" content="Create personalized AI courses tailored to your needs." />
         <meta property="og:image" content="" />

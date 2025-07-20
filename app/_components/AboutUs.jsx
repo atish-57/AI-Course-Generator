@@ -11,7 +11,7 @@ const AboutUs = () => {
         <title>About Us | AI Course Generator</title>
         <meta name="description" content="Learn about AI Course Generator, your ultimate tool for creating personalized AI courses." />
         <meta name="keywords" content="AI courses, course generator, artificial intelligence, personalized learning" />
-        <link rel="canonical" href="https://www.yourwebsite.com/about-us" />
+        <link rel="canonical" href="https://ai-course-generator-atish57s.vercel.app/about" />
       </Head>
     <div className="container mx-auto px-4 py-8">
     <h1 className="text-2xl font-bold mb-4">About Us</h1>

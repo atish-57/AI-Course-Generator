@@ -36,7 +36,7 @@ const ContactUs = () => {
         <title>Contact Us | AI Course Generator</title>
         <meta name="description" content="Get in touch with AI Course Generator for any inquiries, feedback, or support." />
         <meta name="keywords" content="contact, customer support, AI courses" />
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://ai-course-generator-atish57s.vercel.app/" />
       </Head>
       <div name="Contact" className='max-w-screen-2xl ontainer mx-auto px-4 md:px-20 my-10 '>
       <h2 className='text-3xl font-semibold mb-4 '>Contact Me</h2>

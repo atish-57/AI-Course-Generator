@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: "AI Course Generator",
     description: "Transform your learning experience with our AI Course Generator. Create personalized courses tailored to your needs.",
-    url: "", // Replace with your actual URL
+    url: "https://ai-course-generator-atish57s.vercel.app/", // Replace with your actual URL
     image: "/images/og-image.png", // Path to an Open Graph image
     type: "website",
   },

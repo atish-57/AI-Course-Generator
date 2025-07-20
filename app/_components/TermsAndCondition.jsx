@@ -10,7 +10,7 @@ const TermsAndCondition = () => {
         <title>Terms and Conditions | AI Course Generator</title>
         <meta name="description" content="Read the terms and conditions for using AI Course Generator services." />
         <meta name="keywords" content="terms and conditions, AI courses, legal" />
-        <link rel="canonical" href="https://www.yourwebsite.com/terms-and-conditions" />
+        <link rel="canonical" href="https://ai-course-generator-atish57s.vercel.app/terms" />
       </Head>
       <Header/>
     <div className="container mx-auto px-4 py-8">
